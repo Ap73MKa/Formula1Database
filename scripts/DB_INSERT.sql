@@ -34,18 +34,6 @@ INSERT INTO CARS (NAME, ENGINE_ID, CHASSIS_ID) VALUES
     ('Haas VF-19', 9, 9),
     ('Williams FW42', 8, 10);
 
-INSERT INTO PILOTS (FIRST_NAME, SECOND_NAME, BIRTH_DATE, COUNTRY, HEIGHT, WEIGHT, TEAM_ID) VALUES
-    ('Lewis', 'Hamilton', '1985-01-07', 'United Kingdom', 174, 68, 1),
-    ('Valtteri', 'Bottas', '1989-08-28', 'Finland', 173, 69, 2),
-    ('Max', 'Verstappen', '1997-09-30', 'Netherlands', 180, 74, 3),
-    ('Pierre', 'Gasly', '1996-02-07', 'France', 177, 68, 4),
-    ('Daniel', 'Ricciardo', '1989-07-01', 'Australia', 178, 70, 5),
-    ('Kimi', 'Räikkönen', '1979-10-17', 'Finland', 175, 67, 6),
-    ('Sergio', 'Perez', '1990-01-26', 'Mexico', 173, 63, 7),
-    ('Daniil', 'Kvyat', '1994-04-26', 'Russia', 180, 70, 8),
-    ('Kevin', 'Magnussen', '1992-10-05', 'Denmark', 182, 74, 9),
-    ('George', 'Russell', '1998-02-15', 'United Kingdom', 182, 70, 10);
-
 INSERT INTO TEAMS (NAME, COUNTRY, CREATE_DATE, CAR_ID) VALUES
     ('Mercedes', 'Germany', '1970-01-01', 1),
     ('Ferrari', 'Italy', '1970-01-01', 2),
@@ -57,6 +45,18 @@ INSERT INTO TEAMS (NAME, COUNTRY, CREATE_DATE, CAR_ID) VALUES
     ('Scuderia Toro Rosso', 'Italy', '2006-01-01', 8),
     ('Haas F1 Team', 'United States', '2016-01-01', 9),
     ('Williams', 'United Kingdom', '1977-01-01', 10);
+
+INSERT INTO PILOTS (FIRST_NAME, SECOND_NAME, BIRTH_DATE, COUNTRY, HEIGHT, WEIGHT, TEAM_ID) VALUES
+    ('Lewis', 'Hamilton', '1985-01-07', 'United Kingdom', 174, 68, 1),
+    ('Valtteri', 'Bottas', '1989-08-28', 'Finland', 173, 69, 2),
+    ('Max', 'Verstappen', '1997-09-30', 'Netherlands', 180, 74, 3),
+    ('Pierre', 'Gasly', '1996-02-07', 'France', 177, 68, 4),
+    ('Daniel', 'Ricciardo', '1989-07-01', 'Australia', 178, 70, 5),
+    ('Kimi', 'Räikkönen', '1979-10-17', 'Finland', 175, 67, 6),
+    ('Sergio', 'Perez', '1990-01-26', 'Mexico', 173, 63, 7),
+    ('Daniil', 'Kvyat', '1994-04-26', 'Russia', 180, 70, 8),
+    ('Kevin', 'Magnussen', '1992-10-05', 'Denmark', 182, 74, 9),
+    ('George', 'Russell', '1998-02-15', 'United Kingdom', 182, 70, 10);
 
 INSERT INTO CHAMPIONSHIPS (NAME, COUNTRY, EVENT_DATE, PRIZE) VALUES
      ('2023 Formula One World Championship', 'Australia', '2023-03-26', 20000000),
