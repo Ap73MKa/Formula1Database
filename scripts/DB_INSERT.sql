@@ -67,7 +67,7 @@ INSERT INTO CHAMPIONSHIPS (NAME, COUNTRY, EVENT_DATE, PRIZE) VALUES
      ('2023 Azerbaijan Grand Prix', 'Azerbaijan', '2023-06-11', 1250000),
      ('2023 Canadian Grand Prix', 'Canada', '2023-06-25', 2000000),
      ('2023 British Grand Prix', 'United Kingdom', '2023-07-09', 3000000),
-     ('2023 German Grand Prix', 'Germany', '2023-07-23', 1750000),
+     ('2022 United States Grand Prix', 'United States', '2022-07-23', 1750000),
      ('2023 Hungarian Grand Prix', 'Hungary', '2023-08-06', 2250000);
 
 INSERT INTO CHAMPIONSHIPS_TEAMS (CHAMPIONSHIP_ID, TEAM_ID, PLACE) VALUES

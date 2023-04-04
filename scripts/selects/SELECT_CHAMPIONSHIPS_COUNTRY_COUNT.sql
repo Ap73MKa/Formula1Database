@@ -1,0 +1,13 @@
+SELECT
+    c.COUNTRY,
+    COUNT(*) as TOTAL
+FROM
+    CHAMPIONSHIPS c
+WHERE
+    c.NAME LIKE '%prix%'
+GROUP BY
+    c.COUNTRY
+HAVING
+    TOTAL >= 2
+ORDER BY
+    TOTAL DESC;

@@ -1,0 +1,12 @@
+SELECT *
+FROM
+    PILOTS
+WHERE
+    TEAM_ID IN (
+    SELECT
+        TEAM_ID
+    FROM
+        CHAMPIONSHIPS_TEAMS
+    WHERE
+        PLACE = 1
+);

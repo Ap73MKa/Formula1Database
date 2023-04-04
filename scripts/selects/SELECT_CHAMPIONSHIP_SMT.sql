@@ -1,0 +1,10 @@
+SELECT TEAMS.*
+FROM
+    (SELECT
+        TEAM_ID
+    FROM
+        CHAMPIONSHIPS_TEAMS
+           JOIN CHAMPIONSHIPS ON CHAMPIONSHIPS_TEAMS.CHAMPIONSHIP_ID = CHAMPIONSHIPS.id
+    WHERE
+        CHAMPIONSHIPS.country = 'United States') AS subquery
+            JOIN TEAMS ON subquery.team_id = TEAMS.id;
