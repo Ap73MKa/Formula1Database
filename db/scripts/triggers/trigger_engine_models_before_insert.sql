@@ -1,5 +1,7 @@
 delimiter //
 
+drop trigger if exists trigger_engine_models_before_insert;
+
 create trigger trigger_engine_models_before_insert
 	before insert on engine_models
 	for each row

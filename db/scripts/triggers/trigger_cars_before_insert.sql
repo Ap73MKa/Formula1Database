@@ -1,5 +1,7 @@
 delimiter //
 
+drop trigger if exists trigger_cars_before_insert;
+
 create trigger trigger_cars_before_insert
 	before insert on cars
 	for each row

@@ -40,7 +40,9 @@ create table if not exists teams (
     id bigint unsigned not null auto_increment primary key,
     team_name varchar(128) not null,
     country varchar(128) not null,
-    creation_year year not null
+    creation_year year not null,
+    wins smallint unsigned default 0,
+    total_prize int unsigned default 0
 );
 
 create table if not exists race_results (

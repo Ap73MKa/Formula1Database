@@ -1,5 +1,7 @@
 delimiter //
 
+drop trigger if exists trigger_chassis_types_before_insert;
+
 create trigger trigger_chassis_types_before_insert
 	before insert on chassis_types
 	for each row
